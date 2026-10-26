@@ -1,4 +1,4 @@
-# YEBOM Milestone Escrow Contract
+# SOKOYEBOM Milestone Escrow Contract
 
 A Soroban smart contract on Stellar that enables trustless milestone-based escrow between a client, freelancer, and arbiter.
 
