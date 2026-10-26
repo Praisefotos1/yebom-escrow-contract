@@ -13,14 +13,14 @@ build on `main` (and every PR):
 1. `stellar contract build` produces `milestone_escrow.wasm`.
 2. `stellar contract bindings typescript --wasm ... --output-dir bindings/ts`
    generates a typed client from the wasm's contract spec.
-3. `npm pkg set` names the package `@goldii-locks/milestone-escrow-bindings`
+3. `npm pkg set` names the package `@yebom/milestone-escrow-bindings`
    and sets its version, then `npm run build` compiles it.
 4. The package is uploaded as the `milestone-escrow-bindings-ts-<sha>` run
    artifact.
 
 On a `v*` tag, the `publish-bindings` job publishes the same package to GitHub
 Packages (`https://npm.pkg.github.com`) with the tag version, e.g.
-`@goldii-locks/milestone-escrow-bindings@1.2.3`. Main builds get
+`@yebom/milestone-escrow-bindings@1.2.3`. Main builds get
 `0.0.0-main.<run>` artifact builds (not published).
 
 > The package carries no contract id. The escrow is deployed per job, so
@@ -30,12 +30,12 @@ Packages (`https://npm.pkg.github.com`) with the tag version, e.g.
 
 ```bash
 # .npmrc (repo root):
-@goldii-locks:registry=https://npm.pkg.github.com
+@yebom:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=${NPM_TOKEN}   # any GitHub PAT with read:packages
 ```
 
 ```ts
-import { Client } from "@goldii-locks/milestone-escrow-bindings";
+import { Client } from "@yebom/milestone-escrow-bindings";
 
 const escrow = new Client({
   contractId: deployedContractId,

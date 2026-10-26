@@ -1,4 +1,4 @@
-# Milestone Escrow Contract
+# YEBOM Milestone Escrow Contract
 
 A Soroban smart contract on Stellar that enables trustless milestone-based escrow between a client, freelancer, and arbiter.
 
@@ -332,7 +332,7 @@ artifact.
 
 CI also generates typed TypeScript bindings from the built wasm on every main
 build (artifact `milestone-escrow-bindings-ts-<sha>`) and publishes them as the
-versioned GitHub Package `@goldii-locks/milestone-escrow-bindings` on `v*`
+versioned GitHub Package `@yebom/milestone-escrow-bindings` on `v*`
 tags, so clients stop hand-encoding ScVals. See
 [docs/typescript-bindings.md](docs/typescript-bindings.md).
 
@@ -485,5 +485,7 @@ Explorer: `https://stellar.expert/explorer/testnet/contract/CDD5WKK3WT3QVKXMXTJN
  
 ## Companion Repositories
 
-- Frontend: [escrow-frontend](https://github.com/Goldii-locks/escrow-frontend) — Next.js and Tailwind web client.
-- Backend: [escrow-backend](https://github.com/Goldii-locks/escrow-backend) — Express and TypeScript event indexer and transaction service.
+- Frontend: [escrow-frontend](https://github.com/Goldii-locks/escrow-frontend) — Next.js and Tailwind web client (original project).
+- Backend: [escrow-backend](https://github.com/Goldii-locks/escrow-backend) — Express and TypeScript event indexer and transaction service (original project).
+
+> This repository is maintained by [Praisefotos1](https://github.com/Praisefotos1) under the YEBOM brand. The companion frontend and backend repositories above belong to the original project and are referenced for context.

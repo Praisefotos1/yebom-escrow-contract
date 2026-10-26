@@ -51,7 +51,7 @@ hash for every commit in the `reproducible-wasm` job summary.
   (#737).
 - TypeScript bindings generated from the built wasm in CI for every main
   build (artifact) and published as the versioned GitHub Package
-  `@goldii-locks/milestone-escrow-bindings` on `v*` tags; consumption guide in
+  `@yebom/milestone-escrow-bindings` on `v*` tags; consumption guide in
   `docs/typescript-bindings.md` (#744).
 
 ## [0.2.0] - 2026-06-20
