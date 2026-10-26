@@ -483,9 +483,3 @@ reproducible builds, so its source commit is unknown.
 
 Explorer: `https://stellar.expert/explorer/testnet/contract/CDD5WKK3WT3QVKXMXTJNDIXE4T73FK6GGXDSD6UTJAH6YYZU52SQ4MUH`
  
-## Companion Repositories
-
-- Frontend: [escrow-frontend](https://github.com/Goldii-locks/escrow-frontend) — Next.js and Tailwind web client (original project).
-- Backend: [escrow-backend](https://github.com/Goldii-locks/escrow-backend) — Express and TypeScript event indexer and transaction service (original project).
-
-> This repository is maintained by [Praisefotos1](https://github.com/Praisefotos1) under the YEBOM brand. The companion frontend and backend repositories above belong to the original project and are referenced for context.
